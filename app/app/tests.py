@@ -1,6 +1,6 @@
 from django.test import SimpleTestCase
 from app import calc
-    
+     # noqa   
 class CalcTest(SimpleTestCase):
     def test_add_numbers(self):
         """Test adding two numbers together"""
